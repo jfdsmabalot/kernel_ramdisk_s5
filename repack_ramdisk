@@ -10,7 +10,7 @@ exit 0
 fi
 
 cd $1
-find . | cpio -o -H newc | gzip > ../new-ramdisk.cpio.gz
+find . | cpio -o -H newc | gzip > ../arkenstone.cpio.gz
 
 if [ -z $2 ]
 then
